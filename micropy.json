@@ -1,0 +1,23 @@
+{
+    "name": "multimodal-py",
+    "dev-packages": {
+        "micropy-cli": "*",
+        "micropython-uasyncio": "*"
+    },
+    "packages": {
+        "ssd1306": "-e ./src/ssd1306.py",
+        "ssd1306-py": "-e ./src/ssd1306.py",
+        "rotaryirq": "-e ./src/rotary_irq_esp.py",
+        "rotary-irq-esp-py": "-e ./src/rotary_irq_esp.py",
+        "rotary": "-e ./src/rotary.py",
+        "rotary-py": "-e ./src/rotary.py",
+        "micropython-uasyncio": "*"
+    },
+    "config": {
+        "vscode": true,
+        "pylint": true
+    },
+    "stubs": {
+        "esp32-micropython-1.12.0": "1.3.2"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "python.linting.enabled": true,
+    "python.jediEnabled": false,
+    "python.autoComplete.extraPaths": [
+        ".micropy/BradenM-micropy-stubs-3cc928b/frozen",
+        ".micropy/BradenM-micropy-stubs-e1b8ce6/frozen",
+        ".micropy/BradenM-micropy-stubs-3cc928b/stubs",
+        ".micropy/multimodal-py",
+        "src/ssd1306.py",
+        "src/ssd1306.py",
+        "src/rotary_irq_esp.py",
+        "src/rotary_irq_esp.py",
+        "src/rotary.py",
+        "src/rotary.py"
+    ],
+    "python.autoComplete.typeshedPaths": [
+        ".micropy/BradenM-micropy-stubs-3cc928b/frozen",
+        ".micropy/BradenM-micropy-stubs-e1b8ce6/frozen",
+        ".micropy/BradenM-micropy-stubs-3cc928b/stubs",
+        ".micropy/multimodal-py",
+        "src/ssd1306.py",
+        "src/ssd1306.py",
+        "src/rotary_irq_esp.py",
+        "src/rotary_irq_esp.py",
+        "src/rotary.py",
+        "src/rotary.py"
+    ],
+    "python.analysis.typeshedPaths": [
+        ".micropy/BradenM-micropy-stubs-3cc928b/frozen",
+        ".micropy/BradenM-micropy-stubs-e1b8ce6/frozen",
+        ".micropy/BradenM-micropy-stubs-3cc928b/stubs",
+        ".micropy/multimodal-py",
+        "src/ssd1306.py",
+        "src/ssd1306.py",
+        "src/rotary_irq_esp.py",
+        "src/rotary_irq_esp.py",
+        "src/rotary.py",
+        "src/rotary.py"
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.languageServer": "Pylance",
+    "python.analysis.extraPaths": [
+        ".micropy/BradenM-micropy-stubs-53c3c70/frozen",
+        ".micropy/BradenM-micropy-stubs-e1b8ce6/frozen",
+        ".micropy/BradenM-micropy-stubs-53c3c70/stubs",
+        ".micropy/multimodal-py"
+    ],
+    "editor.defaultFormatter": "ms-python.python"
+}
