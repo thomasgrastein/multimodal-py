@@ -10,7 +10,7 @@ class RotaryEncoder:
                                         min_val=-50,
                                         max_val=50,
                                         reverse=False,
-                                        range_mode=RotaryIRQ.RANGE_WRAP
+                                        range_mode=RotaryIRQ.RANGE_BOUNDED
                                         )
         self.rotary_switch = Pin(32, Pin.IN, Pin.PULL_UP)
 
