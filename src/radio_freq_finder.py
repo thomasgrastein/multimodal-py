@@ -6,7 +6,7 @@ speaker = DAC(Pin(25, Pin.OUT), bits=12)
 
 class disabled:
     def __init__(self):
-        self.display = True
+        self.display = False
         self.speaker = False
         self.vibration = False
         self.difficulty = 0
@@ -109,7 +109,7 @@ class RadioFreqFinder:
                 if curr_val == 0:
                     self.switch_puzzle(1)
                     self.print_time(self.disabled.difficulty)
-                    #self.disabled.set_difficulty(self.disabled.difficulty + 1)
+                    self.disabled.set_difficulty(self.disabled.difficulty + 1)
                     self.peripherals.encoder.rotary_encoder.set(
                         value=random.randint(-50, 50))
                 else:

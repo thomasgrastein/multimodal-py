@@ -9,7 +9,7 @@ import utime as time
 class main:
     def __init__(self):
         self.peripherals = Peripherals()
-        #self.network = Network(self.peripherals, self.start, self.on_loose)
+        self.network = Network(self.peripherals, self.start, self.on_loose)
         self.first_puzzle = None
         self.second_puzzle = None
         self.third_puzzle = None
@@ -69,11 +69,11 @@ class main:
     def start(self):
         self.started_at = time.ticks_ms()
         self.switch_puzzle(1)
-        #self.network.state = "STARTED"
+        self.network.state = "STARTED"
 
     def win(self):
         self.switch_puzzle(0)
-        #self.network.set_won()
+        self.network.set_won()
         try:
             self.peripherals.oled.fill(0)
             self.peripherals.oled.text("You've won", 10, 10)
